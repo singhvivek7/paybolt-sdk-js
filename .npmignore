@@ -1,0 +1,43 @@
+# Logs
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Testing files
+coverage/
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+__tests__/
+
+# Local development files
+.DS_Store
+*.swp
+.vscode/
+.idea/
+*.log
+
+# Configuration files not needed for production
+.eslintrc*
+.prettierrc*
+*.config.js
+*.config.ts
+*.local.*
+.editorconfig
+*.iml
+
+# Documentation and scripts
+*.md
+scripts/
+
+# Ignore source files if using a build process
+src/
